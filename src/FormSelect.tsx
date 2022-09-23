@@ -75,7 +75,6 @@ const FormSelect: BsPrefixRefForwardingComponent<'select', FormSelectProps> =
     ) => {
       const { controlId } = useContext(FormContext);
       bsPrefix = useBootstrapPrefix(bsPrefix, 'form-select');
-
       return (
         <select
           {...props}
